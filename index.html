@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<script></script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<div class="resume">
+			<div class="xx">
+				<img src="img/pic2.jpg" class="bb">
+				<h1>鄭宇翔</h1>
+				<h4>"I regret spending doe on loud exhaust pipes in high school days."<br>我後悔高中花錢裝很吵的排氣管.</h4>
+				
+				<p>目前就讀中原大學資訊管理系二年級<br>
+				是個活潑開朗的學生</p>
+				<div class="buttons">
+					<a class="btn fill" href="https://skyis87.github.io/sky.github.io/" target="_blank">個人網站</a>
+					
+				</div>
+				<h4>Programming Skill</h4>
+				<h2 class="title">程式技能</h2>
+				<ul class="listProgram">
+					<li>C#
+						<div class="bar">
+							<div class="value c"></div>
+						</div>
+					</li>
+					<li>HTML/CSS
+						<div class="bar">
+							<div class="value html"></div>
+						</div>
+					</li>
+					<li>JAVA
+						<div class="bar">
+							<div class="value java"></div>
+						</div>
+					</li>
+					<li>JSP
+						<div class="bar">
+							<div class="value jsp"></div>
+						</div>
+					</li>
+					<li>python
+						<div class="bar">
+							<div class="value python"></div>
+						</div>
+					</li>
+				</ul>
+				
+				<div class="container">
+					<h2 class="title">活動經歷</h2>
+					<ul class="time-horizontal">
+						<li><b><button class="accordion">大一上</button><div class="panel">慢慢地熟悉大學的生活
+						</div></b></li>
+						<li><b><button class="accordion">12月</button><div class="panel">開始在SUKIYA打<br>工</div></b></li>
+						<li><b><button class="accordion">大一下</button><div class="panel">經過了一學期 對於<br>程式更加熟悉</div></b></li>
+						<li><b><button class="accordion">寒假</button><div class="panel">參加迎新宿營</div></b></li>
+						
+						<script>
+						var acc = document.getElementsByClassName("accordion");
+						var i;
+						for (i = 0; i < acc.length; i++) {
+						acc[i].addEventListener("click", function() {
+						this.classList.toggle("active");
+						var panel = this.nextElementSibling;
+						if (panel.style.display === "block") {
+						panel.style.display = "none";
+						} else {
+						panel.style.display = "block";
+						}
+						});
+						}
+						</script>
+					</ul>
+				</div>
+				<div class="skill">
+					<h2 class="title">學校經歷</h2>
+					<div class="cc">
+						<img src="img/pic1.png" class="pic1">
+						<h3>最愛聽的歌</h3>
+						<p>上大學之後最常聽的歌，特別喜歡</p>
+						
+					</div>
+					<div class="cc">
+						<img src="img/sk1.jpg" class="pic1">
+						<h3>大一班遊</h3>
+						<p>跟大學同學去台南玩</p>
+						
+					</div>
+					<div class="cc">
+						<img src="img/sk2.jpg" class="pic1">
+						<h3>資管之夜</h3>
+						<p>身為系學會的一份子 <br>
+							參加了資管之夜<br>
+						很辛苦但值得</p>
+						
+					</div>
+					
+				</div>
+			</div>
+			<div class="right">
+				<div id="123"><a href="https://www.facebook.com/profile.php?id=100002203151898"><img src="img/facebook2.png" class="img"><br>
+				</a>
+				<a href="https://www.instagram.com/cheng_1222_/ "><img src="img/instagram2.png" class="img3"><br>
+				</a>
+				<a href="mailto:godsky89@gmail.com"><img src="img/gmail2.png" class="img2">
+				</a>
+			</div>
+		</div>
+		
+		
+		
+	</body>
+</html>
